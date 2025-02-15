@@ -1,3 +1,7 @@
+# Luis Gerardo Parra Cayetano
+# Versión: 1.1
+# Aquí es donde se ejecuta el codigo y vemos errores. Es el producto final por así decir.
+
 from Cuenta import *
 
 
