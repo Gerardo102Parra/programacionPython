@@ -8,11 +8,14 @@ class Cuenta:
         self.tipo = tipo
         self.nombre = nombre
 
+    def imprimirDetalles(self):
+        print("Desde el metodo")
+        print("saldo::", self.saldo)
+        print("tipo::", self.tipo)
+        print("nombre::", self.nombre)
 
-# Esto es lo de la tarea, pero no estoy seguro cómo se hace, ni como ejecutarlo, el lunes pregunto.
-def retirar(self, cantidad):
-    self.saldo = self.saldo-cantidad
+    def retirar(self, cantidad):
+        self.saldo = self.saldo-cantidad
 
-
-def depositar(self, cantidad):
-    self.saldo = self.saldo + cantidad
+    def depositar(self, cantidad):
+        self.saldo = self.saldo + cantidad
