@@ -3,12 +3,12 @@
 # Resumen de la clase: Esta clase muestra al usurario un menu con una bienvenida, es lo primero que deberá ver el usuario.
 
 from Cuenta import *
-from Main import *
+from Main import cuenta1
 
 
 class Menu:
     def __init__(self, banco1):
-        self.banco1 = Menu
+        self.banco1 = banco1
 
     def bienvenida(self):
         print(f"Bienvenido a {self.banco1} ")
@@ -20,28 +20,26 @@ class Menu:
 mainMenu = Menu("Xavis`s Bank")
 
 mainMenu.bienvenida()
-mainMenu.desplegarMenu()
 
-
-operacion = int(input(" Elija una opción: "))
 
 while True:
-    mainMenu.desplegarMenu
+
+    mainMenu.desplegarMenu()
+
     try:
+        operacion = int(input(" Elija una opción: "))
 
         if operacion == 1:  # Si el cliente elige 1, entonces hará un retiro.
             retiro = int(input("¿ Cuánto desea retirar? "))
             cuenta1.retirar(retiro)
             print(
                 f" Su nuevo saldo es:\n {cuenta1.saldo}.\n Muchas gracias por usar nuestro banco")
-            break
 
         elif operacion == 2:
             deposito = int(input("¿ Cuánto desea depositar? "))
             cuenta1.depositar(deposito)
             print(
                 f" Su nuevo saldo es: \n {cuenta1.saldo}. \n Muchas gracias por usar nuestro banco")
-            break
 
         elif operacion == 3:
             print(" Gracias por usar nuestro banco, hasta luego. ")
@@ -52,6 +50,3 @@ while True:
 
     except ValueError:
         print("Elija un número válido: ")
-
-
-# este es el que ando cambiando, metí todo esto:
