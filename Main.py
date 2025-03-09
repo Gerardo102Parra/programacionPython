@@ -1,8 +1,10 @@
 # Autor: Luis Gerardo Parra Cayetano
-# Versión: 1.1
+# Versión: 1.2
 # Resumen de la clase: Aquí es donde se ejecuta el codigo y vemos errores. Es el producto final por así decir.
 
-from Cuenta import *  # Importamos todo lo que hemos hecho en Cuenta.
+# Importamos todo lo que hemos hecho en Cuenta y Cliente.
+from Cliente import *
+# from Menu import *
 
 
 class Main:
@@ -10,8 +12,9 @@ class Main:
 
 
 # Nuestros datos
-cuenta1 = Cuenta(10000, "Débito", "Luis Gerardo Parra Cayetano")
-print(cuenta1.saldo, cuenta1.tipo, cuenta1.nombre)
+cuenta1 = Cuenta(10000, "Débito")
+cliente1 = Cliente("Luis Gerardo Parra Cayetano",
+                   "Av. Acueducto 861. CDMX.", " 18 años")
 
 # cuenta1.retirar(9500)
 # print(cuenta1.saldo)
@@ -20,5 +23,7 @@ print(cuenta1.saldo, cuenta1.tipo, cuenta1.nombre)
 
 cuenta1.retirar(923)  # Ejecutamos operaciones.
 
-# Nos muestra nuestro resumen. Y ejecutando vemos que la operación retirar funciona.
-cuenta1.imprimirDetalles()
+# Nos muestra nuestro resumen. Y ejecutando ve
+
+cliente1.imprimirDetallesCliente()
+cuenta1.imprimirDetallesCuenta()

@@ -1,5 +1,5 @@
 # Autor: Luis Gerardo Parra Cayetano
-# Versión: 1.1
+# Versión: 1.2
 # Resumen de la clase: Esta clase muestra al usurario un menu con una bienvenida, es lo primero que deberá ver el usuario.
 
 from Cuenta import *
