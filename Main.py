@@ -3,8 +3,8 @@
 # Resumen de la clase: Aquí es donde se ejecuta el codigo y vemos errores. Es el producto final por así decir.
 
 # Importamos todo lo que hemos hecho en Cuenta y Cliente.
-from RelacionDeClases import *
 from Cliente import *
+
 # from Menu import *
 
 
@@ -26,5 +26,7 @@ cuenta1.retirar(923)  # Ejecutamos operaciones.
 
 # Nos muestra nuestro resumen. Y ejecutando ve
 
+
+# Aquí ejecuto ambas al mismo tiempo.
 cuenta1.imprimirDetallesCuenta()
 cliente1.imprimirDetallesCliente()
