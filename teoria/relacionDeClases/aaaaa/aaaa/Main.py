@@ -3,7 +3,7 @@
 # Resumen de la clase: Aquí es donde se ejecuta el codigo y vemos errores. Es el producto final por así decir.
 
 # Importamos todo lo que hemos hecho en Cuenta y Cliente.
-from TeoríaClasesYMetodos.Cliente import *
+from Cliente import *
 
 # from Menu import *
 

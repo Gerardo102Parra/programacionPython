@@ -2,7 +2,7 @@
 # Versión: 1.2
 # Resumen de la clase: Esta clase permite almacenar los datos del cliente.
 
-from TeoríaClasesYMetodos.Cuenta import *
+from Cuenta import *
 
 
 class Cliente:

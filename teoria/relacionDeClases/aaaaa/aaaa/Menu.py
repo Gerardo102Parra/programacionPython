@@ -2,8 +2,8 @@
 # Versión: 1.2
 # Resumen de la clase: Esta clase muestra al usurario un menu con una bienvenida, es lo primero que deberá ver el usuario.
 
-from TeoríaClasesYMetodos.Cuenta import *
-from TeoríaClasesYMetodos.Main import cuenta1
+from Cuenta import *
+from Main import cuenta1
 
 
 class Menu:
