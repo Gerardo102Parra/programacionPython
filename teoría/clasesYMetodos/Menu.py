@@ -27,7 +27,7 @@ while True:
     mainMenu.desplegarMenu()
 
     try:
-        operacion = int(input(" Elija una opción: "))
+        operacion = int(input("$   "))
 
         if operacion == 1:  # Si el cliente elige 1, entonces hará un retiro.
             retiro = int(input("¿ Cuánto desea retirar? "))
