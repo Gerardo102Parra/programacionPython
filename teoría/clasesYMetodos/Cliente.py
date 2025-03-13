@@ -15,7 +15,7 @@ class Cliente:
     # Creamos la función imprimirDetalles para mostrarnos un resumen del cliente
 
     def imprimirDetallesCliente(self):
-        print("Detalles del Cliente: \n")
+        print("\nDetalles del Cliente: \n")
         print("Nombre del cliente : ", self.nombre)
         print("Dirección del cliente : ", self.direccion)
         print("Edad del cliente: ", self.edad)
