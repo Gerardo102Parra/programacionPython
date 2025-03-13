@@ -19,4 +19,4 @@ class Cliente:
         print("Nombre del cliente : ", self.nombre)
         print("Dirección del cliente : ", self.direccion)
         print("Edad del cliente: ", self.edad)
-        print("Cuenta del cliente : ", self.cuenta.imprimirDetallesCuenta)
+        print("Cuenta del cliente : \n", self.cuenta.imprimirDetallesCuenta())
