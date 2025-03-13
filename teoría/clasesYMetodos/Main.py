@@ -15,7 +15,7 @@ class Main:
 # Nuestros datos
 cuenta1 = Cuenta(10000, "Débito")
 cliente1 = Cliente("Luis Gerardo Parra Cayetano",
-                   "Av. Acueducto 861. CDMX.", " 18 años")
+                   "Av. Acueducto 861. CDMX.", " 21 años", cuenta1)
 
 # cuenta1.retirar(9500)
 # print(cuenta1.saldo)
@@ -28,5 +28,5 @@ cuenta1.retirar(923)  # Ejecutamos operaciones.
 
 
 # Aquí ejecuto ambas al mismo tiempo.
-cuenta1.imprimirDetallesCuenta()
+# cuenta1.imprimirDetallesCuenta()
 cliente1.imprimirDetallesCliente()

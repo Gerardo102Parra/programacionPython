@@ -7,10 +7,11 @@ from Cuenta import *
 
 class Cliente:
     # Los datos del cliente.
-    def __init__(self, nombre, direccion, edad):
+    def __init__(self, nombre, direccion, edad, Cuenta):
         self.nombre = nombre
         self.direccion = direccion
         self.edad = edad
+        self.cuenta = Cuenta
     # Creamos la función imprimirDetalles para mostrarnos un resumen del cliente
 
     def imprimirDetallesCliente(self):
@@ -18,3 +19,4 @@ class Cliente:
         print("Nombre del cliente : ", self.nombre)
         print("Dirección del cliente : ", self.direccion)
         print("Edad del cliente: ", self.edad)
+        print("Cuenta del cliente : ", self.cuenta)
