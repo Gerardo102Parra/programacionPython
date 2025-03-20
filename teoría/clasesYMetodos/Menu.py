@@ -33,7 +33,7 @@ while True:
             cuenta1.retirar()
 
         elif operacion == 2:
-            cuenta1.depositar
+            cuenta1.depositar()
 
         elif operacion == 3:
             print(" Gracias por usar nuestro banco, hasta luego. ")

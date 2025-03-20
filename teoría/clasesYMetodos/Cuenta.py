@@ -20,10 +20,10 @@ class Cuenta:
         cantidad = int(input("¿Cuánto desea retirar? "))
         self.saldo -= cantidad
         print(
-            f"Su nuevo saldo es: \n {self.saldo}.\n Muchas gracias por usar nuestro banco")
+            f"Su nuevo saldo en su tarjeta de {self.tipo} es: \n {self.saldo}.\n Muchas gracias por usar nuestro banco")
 
     def depositar(self):  # Definimos la operación depositar.
         cantidad = int(input("Cuánto desea depositar? "))
         self.saldo += cantidad
         print(
-            f"Su nuevo saldo es: \n{self.saldo}. \n Muchas gracias por usar nuestro banco")
+            f"Su nuevo saldo en su tarjeta de {self.tipo} es: \n{self.saldo}. \n Muchas gracias por usar nuestro banco")

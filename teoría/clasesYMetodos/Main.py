@@ -22,7 +22,7 @@ cliente1 = Cliente("Luis Gerardo Parra Cayetano",
 # cuenta1.depositar(100000)
 # print(cuenta1.saldo)
 
-cuenta1.retirar(923)  # Ejecutamos operaciones.
+# cuenta1.retirar(923)  # Ejecutamos operaciones.
 
 # Nos muestra nuestro resumen. Y ejecutando ve
 
