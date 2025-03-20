@@ -11,10 +11,10 @@ class Menu:
         self.banco1 = banco1
 
     def bienvenida(self):
-        print(f"Bienvenido a {self.banco1} ")
+        print(f"\n¡Bienvenido a {self.banco1}!")
 
     def desplegarMenu(self):
-        print("Elija una opción: \n 1. Retirar \n 2. Depositar \n 3. Salir ")
+        print("\nElija una opción: \n 1. Retirar \n 2. Depositar \n 3. Salir ")
 
 
 mainMenu = Menu("Xavis`s Bank")
