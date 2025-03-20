@@ -33,10 +33,7 @@ while True:
             cuenta1.retirar()
 
         elif operacion == 2:
-            deposito = int(input("¿ Cuánto desea depositar? "))
-            cuenta1.depositar(deposito)
-            print(
-                f" Su nuevo saldo es: \n {cuenta1.saldo}. \n Muchas gracias por usar nuestro banco")
+            cuenta1.depositar
 
         elif operacion == 3:
             print(" Gracias por usar nuestro banco, hasta luego. ")
