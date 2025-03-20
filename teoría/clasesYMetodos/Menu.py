@@ -30,10 +30,7 @@ while True:
         operacion = int(input("$   "))
 
         if operacion == 1:  # Si el cliente elige 1, entonces hará un retiro.
-            retiro = int(input("¿ Cuánto desea retirar? "))
-            cuenta1.retirar(retiro)
-            print(
-                f" Su nuevo saldo es:\n {cuenta1.saldo}.\n Muchas gracias por usar nuestro banco")
+            cuenta1.retirar()
 
         elif operacion == 2:
             deposito = int(input("¿ Cuánto desea depositar? "))
