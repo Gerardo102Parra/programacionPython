@@ -3,6 +3,7 @@
 # Resumen de la clase: Aquí es donde se ejecuta el codigo y vemos errores. Es el producto final por así decir.
 
 # Importamos todo lo que hemos hecho en Cuenta y Cliente.
+from Cuenta import *
 from Cliente import *
 
 # from Menu import *
@@ -29,4 +30,7 @@ cliente1 = Cliente("Luis Gerardo Parra Cayetano",
 
 # Aquí ejecuto ambas al mismo tiempo.
 # cuenta1.imprimirDetallesCuenta()
-cliente1.imprimirDetallesCliente()
+# cliente1.imprimirDetallesCliente()
+
+print(cuenta1)
+print(cliente1)

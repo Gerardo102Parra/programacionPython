@@ -10,10 +10,10 @@ class Cuenta:
         self.__tipo = tipo
 
     # Definimos la función imprimirDetalles que nos otorgará un resumen del cliente.
-    def imprimirDetallesCuenta(self):
+#    def imprimirDetallesCuenta(self):
         # print("Desde el metodo")
-        print("Saldo del cliente: ", self.__saldo)
-        print("Tipo de cuenta: ", self.__tipo)
+ #       print("Saldo del cliente: ", self.__saldo)
+  #      print("Tipo de cuenta: ", self.__tipo)
 
     def retirar(self):
         # Definimos la operación retirar.
@@ -27,3 +27,7 @@ class Cuenta:
         self.__saldo += cantidad
         print(
             f"Su nuevo saldo en su tarjeta de {self.__tipo} es: \n{self.__saldo}. \n Muchas gracias por usar nuestro banco")
+
+
+def __str__(self):
+    return "Tipo de cuenta::"+str(self.tipo) + "\n" + "Saldo de la cuenta::"+str(self.saldo)
