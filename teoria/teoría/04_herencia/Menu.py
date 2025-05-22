@@ -4,9 +4,6 @@ from Cuenta import *
 from CuentaCredito import *
 from CuentaDebito import *
 
-from CuentaDebito import CuentaDebito
-from CuentaCredito import CuentaCredito
-
 
 class Menu:
 
